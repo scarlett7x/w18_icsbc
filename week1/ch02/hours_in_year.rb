@@ -5,4 +5,5 @@
 
 
 ### Your Code Here ###
-puts (365 * 24) + " or " + (366 * 24)
+puts (365 * 24)
+puts (366 * 24)
