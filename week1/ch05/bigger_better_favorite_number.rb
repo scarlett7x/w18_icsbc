@@ -7,4 +7,4 @@
 puts "What\'s your favorite number?"
 number = gets.chomp
 favorite = number.to_i + 1
-puts "Do you think" + favorite + "can be a better favorite option?"
+puts "Do you think" + favorite.to_s + "can be a better favorite option?"
