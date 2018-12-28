@@ -4,3 +4,9 @@
 
 
 ### Your Code Here ###
+puts "SAVE YOUR GREETINGS!"
+puts "TELL ME WHY YOU ARE HERE!? WHAT DO YOU WANT??"
+request = gets.chomp
+puts "HOW DARE YOU SAY \"" + request + "\"!?"
+puts "YOU ARE FIRED!"
+puts "NOW GET OUT!!"
