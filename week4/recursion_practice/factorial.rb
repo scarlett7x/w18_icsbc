@@ -5,6 +5,12 @@ def factorial(n)
 
   # YOUR CODE HERE #
 
+  if n == 1
+    factorial = 1
+  else factorial = n * factorial(n-1)
+  end
+  return factorial
+
 end
 
 puts(factorial(3)) # expected: 6
