@@ -5,7 +5,7 @@ def factorial(n)
 
   # YOUR CODE HERE #
 
-  if n == 1
+  if n == 1 || n == 0
     factorial = 1
   else factorial = n * factorial(n-1)
   end
